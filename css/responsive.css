@@ -45,8 +45,8 @@
    }
 }
 
-@media only screen and (max-width:750px){   /*destroy column settings*/
-  .col-1, .col-2, .col-3{
+@media only screen and (max-width:750px){
+  .col-1, .col-2, .col-3{  /*destroy column settings*/
      width: 100%;
      margin-left: 0;
      float:none;
@@ -63,4 +63,11 @@
      -moz-column-count: 1;
      -webkit-column-count: 1;
    }
+}
+
+@media only screen and (max-width:700px){
+  #navbar nav a{
+    display: none;
+  }
+
 }
